@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites
 
-<a href="https://thalesmanoel.github.io/html-css/exercicios/desafio10/android">Executar o site</a>
+<a href="https://thalesmanoel.github.io/html-css/exercicios/desafio10/android"  target="_blank">Executar o site</a>
