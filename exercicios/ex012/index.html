@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos no HTML</title>
+</head>
+<body>
+    <h1>Como por um vídeo no html5</h1>
+    <p>este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midia/pexels-taryn-elliott-5309381 (1080p).mp4" width="500" controls></video>
+    <h1>Para ser compatível com todos os navegadores tem que fazer isso:</h1><!--Isso serve para audios tbm-->  
+    <video controls width="500">
+        <source src="midia/pexels-taryn-elliott-5309381 (1080p).mp4" type="video/mp4">
+        <source src="midia/pexels-taryn-elliott-5309381 (1080p).m4v" type="video/m4v">
+        <source src="midia/pexels-taryn-elliott-5309381 (1080p).ogv" type="videos/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p><!--isso é caso o navegador da pessoa não consiga acessar nenhum dos arquivos-->
+    </video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/bU_-pHDEhtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

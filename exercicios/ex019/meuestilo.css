@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+em HTML id é igual a # em CSS
+em HTML class é igual a . em CSS
+(o id só pode usar uma única vez, o class pode usar várias vezes)
+*/
+body{
+    background-color: rgb(159, 255, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(153, 116, 4);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: #ffff;
+}
+
+h2{
+    color: rgb(112, 84, 1);
+}
+
+.basico{
+    color: rgb(86, 136, 180);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(153, 0, 0);
+}
+
+.avancado{
+    color: rgb(39, 21, 119);
+}
+
+.destaque{
+    background-color: bisque;
+}
