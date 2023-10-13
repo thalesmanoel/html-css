@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body>header{
+    background-color: rgb(255, 103, 2);
+    text-align: center;
+    padding-top: 20px;
+}
+
+body>header>p{
+    padding-top: 6px;
+}
