@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de formularios</title>
+</head>
+<body>
+    <h1>Testando mais formulários</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="cadastro.php">
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Tel</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel">
+                <!-- Estudar mais sobre RegEx, é uma regulação -->
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
