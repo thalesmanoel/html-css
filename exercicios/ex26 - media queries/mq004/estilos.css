@@ -27,6 +27,16 @@ main{
     padding: 10px;
 }
 
+img {
+    margin: auto;
+}
+
 h1{
     text-align: center;
 }
+
+img#smartphone {display: block;}
+img#tablet {display: none;}
+img#impressão {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
