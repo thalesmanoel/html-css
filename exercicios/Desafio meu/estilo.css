@@ -3,14 +3,47 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
-body>header{
+body{
+    background: url(imagens/back-pc.jpg) no-repeat;
+    background-position: center;
+}
+
+body > header{
     background-color: rgb(255, 103, 2);
     text-align: center;
     padding-top: 20px;
 }
 
-body>header>p{
+body > header > p{
     padding-top: 6px;
+}
+
+menu{
+    background-color: orange;
+    text-align: center;
+    padding: 5px;
+}
+
+menu > ul > li{
+    display: inline-block;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+    
+}
+
+menu > ul > li:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+article{
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
 }
